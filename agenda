@@ -1,0 +1,68 @@
+1. Why my vim looks pretty and can be useful?
+
+  .vimrc
+
+2. Why use vim:
+
+  1# Can be used without graphical interface (useful with ssl)
+  2# Is on every linux
+  3# You can do things really fast (will show some demo later)
+  4# Is really light do not charge your VM / environment
+
+3. VIM basics:
+
+  1# Movement
+
+    h - left
+    l - right
+    j - down
+    k - up
+    http://superuser.com/questions/599150/why-arrow-keys-are-not-recommended-in-vim
+
+    w - word forward
+    b - word backward
+    
+    gg - begining of the file
+    G - end of a file
+    gf - go to file
+    ctrl+] - go to function
+    ctrl+f - page down
+    ctrl+b - page up
+
+    i - marking inside
+    t - till
+
+    zz - leave and save  - :wq
+    zq - leave don't save :q!
+
+    f sign - find sign
+    / - search down
+    ? - search up
+
+  2# Actions
+
+    d - delete
+    c - change
+    u - undo
+    p - paste
+
+  3# Combinations
+
+    3dw - delete 3 words
+    3w - move forward 3 words
+
+    etc.
+
+  4# Marking
+
+    ctrl+v
+    shift+v
+
+4. Examples
+
+  1. Macro
+  2. Range
+  3. Inside / tile
+  4. Useful regex
+  5. Functions from linux
+  6. Moving in big project
