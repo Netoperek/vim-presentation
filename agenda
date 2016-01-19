@@ -28,6 +28,7 @@
     ctrl+] - go to function
     ctrl+f - page down
     ctrl+b - page up
+    :line_number - go to line
 
     i - marking inside
     t - till
@@ -61,8 +62,27 @@
 4. Examples
 
   1. Macro
+    -Macro for swaping words with numbers and adding something at the and of each line
+    -Macro for task for PJN
   2. Range
+    -Numerize from 15-30 # put =range(15,30)
   3. Inside / tile
   4. Useful regex
+    %s/\d\+/\=(submatch(0)+1)/g  # increase numbers
+    %s/\s\+$//e # remove white signs
+    %s/mleko/kakao/g 
   5. Functions from linux
+    -date # .! date
+    -ls # .! ls
   6. Moving in big project
+    -ctrl+n
+    -ctrl+p
+    -splitting windows
+    -ctags (ctrl + [, ctrl + t )
+    -gf
+    -vs, sp
+    -i, s in NERDTree
+    -later 15m
+    -earlier 15m
+    -Gvdiff
+    -GBlame
