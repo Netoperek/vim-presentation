@@ -1,9 +1,9 @@
 Vim in action - Why vim can be a great IDE or your text editor of choice. Tips, tricks and examples shown during live demo.
  
 I will focus on the following aspects:
-- VIM basic text editing and navigation in a fast way
-- Using macros, regexes, functions from linux
-- Using it as an IDE in a larger project (giza showcase)
+  - VIM basic text editing and navigation in a fast way
+  - Using macros, regexes, functions from linux
+  - Using it as an IDE in a larger project (giza showcase)
 
 1. Why my vim looks pretty and can be useful?
 
@@ -25,6 +25,7 @@ I will focus on the following aspects:
     j - down
     k - up
     http://superuser.com/questions/599150/why-arrow-keys-are-not-recommended-in-vim
+    http://i.stack.imgur.com/ILGdM.jpg
 
     w - word forward
     b - word backward
@@ -55,6 +56,7 @@ I will focus on the following aspects:
     d - delete
     c - change
     u - undo
+    r - redo
     y - yank
     p - paste
     
@@ -75,6 +77,7 @@ I will focus on the following aspects:
     capitalize
     uncapitalize
     switch capitalize PiOtReK #
+    adding '-' before every point in block selection
 
 4. Examples
 
@@ -85,9 +88,9 @@ I will focus on the following aspects:
     -Numerize from 15-30 # put =range(15,30)
   3. Inside / tile
   4. Useful regex
-    %s/\d\+/\=(submatch(0)+1)/g  # increase numbers
-    %s/\s\+$//e # remove white signs
-    %s/mleko/kakao/g 
+     -%s/\d\+/\=(submatch(0)+1)/g  # increase numbers
+     -%s/mleko/kakao/g 
+     -%s/\s\+$//e # remove white signs
   5. Functions from linux
     -date # .! date
     -ls # .! ls
