@@ -1,3 +1,10 @@
+Vim in action - Why vim can be a great IDE or your text editor of choice. Tips, tricks and examples shown during live demo.
+ 
+I will focus on the following aspects:
+- VIM basic text editing and navigation in a fast way
+- Using macros, regexes, functions from linux
+- Using it as an IDE in a larger project (giza showcase)
+
 1. Why my vim looks pretty and can be useful?
 
   .vimrc
@@ -40,17 +47,23 @@
     / - search down
     ? - search up
 
+    shift+^ -start of line
+    shift+$ -end of line
+
   2# Actions
 
     d - delete
     c - change
     u - undo
+    y - yank
     p - paste
-
+    
   3# Combinations
 
     3dw - delete 3 words
     3w - move forward 3 words
+    shift + d - delete till the end of line
+    shift + c - change till the end of line
 
     etc.
 
@@ -59,9 +72,13 @@
     ctrl+v
     shift+v
 
+    capitalize
+    uncapitalize
+    switch capitalize PiOtReK #
+
 4. Examples
 
-  1. Macro
+  1. Macro (what is that?)
     -Macro for swaping words with numbers and adding something at the and of each line
     -Macro for task for PJN
   2. Range
